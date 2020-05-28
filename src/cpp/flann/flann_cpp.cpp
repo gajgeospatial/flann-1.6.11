@@ -26,5 +26,9 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *************************************************************************/
 
+__declspec(dllexport)int add()
+{
+	return 5;
+}
 
 #include "flann/flann.hpp"

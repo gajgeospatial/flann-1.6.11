@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\op3d_active\flann-1.6.11\msvc\CMakeFiles\bd8541365e71d9c17417e58d7e945d8e\dataset_sift10K.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Development\op3d_active\flann-1.6.11\test\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Development\op3d_active\flann-1.6.11\msvc\test\CMakeFiles\dataset_sift10K.h5" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D61053F4-CE3C-3EA2-B7E0-942B1567EBAF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

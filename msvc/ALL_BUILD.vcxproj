@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{65045C91-B42A-3630-9491-FD7809A9D198}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\op3d_active\flann-1.6.11\src\cpp;C:\Development\op3d_active\hdf5-1.8.13\src;C:\Development\op3d_active\hdf5-1.8.13\c++;C:\Development\op3d_active\hdf5-1.8.13\hl;C:\Development\op3d_active\hdf5-1.8.13\tools;C:\Development\op3d_active\hdf5-1.8.13\msvc;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\op3d_active\flann-1.6.11\src\cpp;C:\Development\op3d_active\hdf5-1.8.13\src;C:\Development\op3d_active\hdf5-1.8.13\c++;C:\Development\op3d_active\hdf5-1.8.13\hl;C:\Development\op3d_active\hdf5-1.8.13\tools;C:\Development\op3d_active\hdf5-1.8.13\msvc;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\op3d_active\flann-1.6.11\src\cpp;C:\Development\op3d_active\hdf5-1.8.13\src;C:\Development\op3d_active\hdf5-1.8.13\c++;C:\Development\op3d_active\hdf5-1.8.13\hl;C:\Development\op3d_active\hdf5-1.8.13\tools;C:\Development\op3d_active\hdf5-1.8.13\msvc;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\op3d_active\flann-1.6.11\src\cpp;C:\Development\op3d_active\hdf5-1.8.13\src;C:\Development\op3d_active\hdf5-1.8.13\c++;C:\Development\op3d_active\hdf5-1.8.13\hl;C:\Development\op3d_active\hdf5-1.8.13\tools;C:\Development\op3d_active\hdf5-1.8.13\msvc;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\op3d_active\flann-1.6.11\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Development/op3d_active/flann-1.6.11/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/op3d_active/flann-1.6.11 -BC:/Development/op3d_active/flann-1.6.11/msvc --check-stamp-file C:/Development/op3d_active/flann-1.6.11/msvc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Development/op3d_active/flann-1.6.11/CMakeLists.txt;C:\Development\op3d_active\flann-1.6.11\CMakeLists.txt;C:\Development\op3d_active\flann-1.6.11\cmake\Config.cmake.in;C:\Development\op3d_active\flann-1.6.11\cmake\flann_utils.cmake;C:\Development\op3d_active\flann-1.6.11\cmake\uninstall_target.cmake.in;C:\Development\op3d_active\flann-1.6.11\msvc\CMakeFiles\3.14.3\CMakeCCompiler.cmake;C:\Development\op3d_active\flann-1.6.11\msvc\CMakeFiles\3.14.3\CMakeCXXCompiler.cmake;C:\Development\op3d_active\flann-1.6.11\msvc\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;C:\Development\op3d_active\flann-1.6.11\msvc\CMakeFiles\3.14.3\CMakeSystem.cmake;C:\Development\op3d_active\flann-1.6.11\msvc\CMakeFiles\FindMPI\test_mpi.cpp;C:\Development\op3d_active\hdf5-1.8.13\msvc\hdf5-config.cmake;C:\Development\op3d_active\hdf5-1.8.13\msvc\hdf5-targets.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindGTest.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindHDF5.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindMPI.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindMPI\test_mpi.c;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\GoogleTest.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.14\Templates\CPackConfig.cmake.in;C:\Development\op3d_active\flann-1.6.11\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Development\op3d_active\flann-1.6.11\msvc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Development/op3d_active/flann-1.6.11/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/op3d_active/flann-1.6.11 -BC:/Development/op3d_active/flann-1.6.11/msvc --check-stamp-file C:/Development/op3d_active/flann-1.6.11/msvc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Development/op3d_active/flann-1.6.11/CMakeLists.txt;C:\Development\op3d_active\flann-1.6.11\CMakeLists.txt;C:\Development\op3d_active\flann-1.6.11\cmake\Config.cmake.in;C:\Development\op3d_active\flann-1.6.11\cmake\flann_utils.cmake;C:\Development\op3d_active\flann-1.6.11\cmake\uninstall_target.cmake.in;C:\Development\op3d_active\flann-1.6.11\msvc\CMakeFiles\3.14.3\CMakeCCompiler.cmake;C:\Development\op3d_active\flann-1.6.11\msvc\CMakeFiles\3.14.3\CMakeCXXCompiler.cmake;C:\Development\op3d_active\flann-1.6.11\msvc\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;C:\Development\op3d_active\flann-1.6.11\msvc\CMakeFiles\3.14.3\CMakeSystem.cmake;C:\Development\op3d_active\flann-1.6.11\msvc\CMakeFiles\FindMPI\test_mpi.cpp;C:\Development\op3d_active\hdf5-1.8.13\msvc\hdf5-config.cmake;C:\Development\op3d_active\hdf5-1.8.13\msvc\hdf5-targets.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindGTest.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindHDF5.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindMPI.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindMPI\test_mpi.c;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\GoogleTest.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.14\Templates\CPackConfig.cmake.in;C:\Development\op3d_active\flann-1.6.11\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Development\op3d_active\flann-1.6.11\msvc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Development/op3d_active/flann-1.6.11/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/op3d_active/flann-1.6.11 -BC:/Development/op3d_active/flann-1.6.11/msvc --check-stamp-file C:/Development/op3d_active/flann-1.6.11/msvc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Development/op3d_active/flann-1.6.11/CMakeLists.txt;C:\Development\op3d_active\flann-1.6.11\CMakeLists.txt;C:\Development\op3d_active\flann-1.6.11\cmake\Config.cmake.in;C:\Development\op3d_active\flann-1.6.11\cmake\flann_utils.cmake;C:\Development\op3d_active\flann-1.6.11\cmake\uninstall_target.cmake.in;C:\Development\op3d_active\flann-1.6.11\msvc\CMakeFiles\3.14.3\CMakeCCompiler.cmake;C:\Development\op3d_active\flann-1.6.11\msvc\CMakeFiles\3.14.3\CMakeCXXCompiler.cmake;C:\Development\op3d_active\flann-1.6.11\msvc\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;C:\Development\op3d_active\flann-1.6.11\msvc\CMakeFiles\3.14.3\CMakeSystem.cmake;C:\Development\op3d_active\flann-1.6.11\msvc\CMakeFiles\FindMPI\test_mpi.cpp;C:\Development\op3d_active\hdf5-1.8.13\msvc\hdf5-config.cmake;C:\Development\op3d_active\hdf5-1.8.13\msvc\hdf5-targets.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindGTest.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindHDF5.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindMPI.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindMPI\test_mpi.c;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\GoogleTest.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.14\Templates\CPackConfig.cmake.in;C:\Development\op3d_active\flann-1.6.11\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Development\op3d_active\flann-1.6.11\msvc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Development/op3d_active/flann-1.6.11/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/op3d_active/flann-1.6.11 -BC:/Development/op3d_active/flann-1.6.11/msvc --check-stamp-file C:/Development/op3d_active/flann-1.6.11/msvc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Development/op3d_active/flann-1.6.11/CMakeLists.txt;C:\Development\op3d_active\flann-1.6.11\CMakeLists.txt;C:\Development\op3d_active\flann-1.6.11\cmake\Config.cmake.in;C:\Development\op3d_active\flann-1.6.11\cmake\flann_utils.cmake;C:\Development\op3d_active\flann-1.6.11\cmake\uninstall_target.cmake.in;C:\Development\op3d_active\flann-1.6.11\msvc\CMakeFiles\3.14.3\CMakeCCompiler.cmake;C:\Development\op3d_active\flann-1.6.11\msvc\CMakeFiles\3.14.3\CMakeCXXCompiler.cmake;C:\Development\op3d_active\flann-1.6.11\msvc\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;C:\Development\op3d_active\flann-1.6.11\msvc\CMakeFiles\3.14.3\CMakeSystem.cmake;C:\Development\op3d_active\flann-1.6.11\msvc\CMakeFiles\FindMPI\test_mpi.cpp;C:\Development\op3d_active\hdf5-1.8.13\msvc\hdf5-config.cmake;C:\Development\op3d_active\hdf5-1.8.13\msvc\hdf5-targets.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindGTest.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindHDF5.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindMPI.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindMPI\test_mpi.c;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\GoogleTest.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.14\Templates\CPackConfig.cmake.in;C:\Development\op3d_active\flann-1.6.11\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Development\op3d_active\flann-1.6.11\msvc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Development\op3d_active\flann-1.6.11\msvc\ZERO_CHECK.vcxproj">
+      <Project>{E63DDFE8-A030-3860-AB73-69072A5DC69A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\flann-1.6.11\msvc\examples\examples.vcxproj">
+      <Project>{A670F6B4-A99D-3D8E-8D51-355F75E514B6}</Project>
+      <Name>examples</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\flann-1.6.11\msvc\src\cpp\flann.vcxproj">
+      <Project>{9E443C31-CD20-35F5-A65B-2E60E71B9C08}</Project>
+      <Name>flann</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\flann-1.6.11\msvc\src\cpp\flann_cpp.vcxproj">
+      <Project>{9A0FA974-8E49-3E48-A84F-05B6B5DF7932}</Project>
+      <Name>flann_cpp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\flann-1.6.11\msvc\src\cpp\flann_cpp_s.vcxproj">
+      <Project>{5888EF65-3848-34F7-83CF-527B3A0F12CA}</Project>
+      <Name>flann_cpp_s</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\flann-1.6.11\msvc\src\cpp\flann_cuda.vcxproj">
+      <Project>{B19BBF7F-264E-30C8-9D09-2F8166512570}</Project>
+      <Name>flann_cuda</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\flann-1.6.11\msvc\src\cpp\flann_cuda_s.vcxproj">
+      <Project>{7C01413C-6F5F-30F5-BFEE-A444E7F044DD}</Project>
+      <Name>flann_cuda_s</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\flann-1.6.11\msvc\examples\flann_example_c.vcxproj">
+      <Project>{43E9773C-E1B0-311E-8AE7-D3506DC772A8}</Project>
+      <Name>flann_example_c</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\flann-1.6.11\msvc\examples\flann_example_cpp.vcxproj">
+      <Project>{70C9318B-573E-38E2-B7B3-DD7ED82FB97E}</Project>
+      <Name>flann_example_cpp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\flann-1.6.11\msvc\src\cpp\flann_s.vcxproj">
+      <Project>{14062D32-756F-33A7-84CD-3A3268B0DF30}</Project>
+      <Name>flann_s</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

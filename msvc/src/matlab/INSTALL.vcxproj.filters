@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\op3d_active\flann-1.6.11\msvc\CMakeFiles\d723800571cce47b0f5725769d29303b\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D61053F4-CE3C-3EA2-B7E0-942B1567EBAF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

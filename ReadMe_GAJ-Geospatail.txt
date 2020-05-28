@@ -1,0 +1,1 @@
+This project should be installed as FLANN_DIR with ProjectTool.
